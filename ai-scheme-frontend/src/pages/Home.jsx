@@ -74,7 +74,7 @@ const speakText = (text) => {
     setInput("");
 
     try {
-      const response = await fetch("http://localhost:8090/chat", {
+      const response = await fetch("https://ai-powered-voice-first-conversational.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: input, language }),
