@@ -11,7 +11,7 @@ init_db()
 # ✅ CORS — SIMPLE & CORRECT
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://ai-powered-voice-first-conversation.vercel.app/"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
