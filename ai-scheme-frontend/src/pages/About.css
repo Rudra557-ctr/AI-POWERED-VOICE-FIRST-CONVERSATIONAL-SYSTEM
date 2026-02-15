@@ -1,0 +1,41 @@
+.about-page {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  background-color: #211d25;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 10px;
+}
+
+
+.about-card {
+  width: 100%;
+  max-width: 1400px; /* laptop perfect width */
+  margin: 0 auto;
+  background: white;
+  border-radius: 18px;
+  padding: 55px 60px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.about-card h1 {
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+
+.about-card h2 {
+  margin-top: 30px;
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+
+.about-card p,
+.about-card li {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.about-card ul {
+  padding-left: 20px;
+}
